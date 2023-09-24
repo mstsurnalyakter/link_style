@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+     border: none;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    line-height: 100vh;
+    text-align: center;
+}
+
+a{
+    /* display: inline-block; */
+    margin-right: 15px;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+    padding: 15px;
+}
+
+.li1{
+    text-decoration: underline;
+    color: hotpink;
+}
+
+.li1:hover{
+    color: green;
+}
+
+.li2{
+    color: green;
+}
+
+.li2:hover{
+    text-decoration: underline;
+}
+
+.li3{
+    border: 1px solid green;
+    color: rgb(128, 0, 13);
+
+}
+
+.li3:hover{
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.li4{
+    color: white;
+    background-color: crimson;
+    opacity: 0.7;
+
+}
+
+.li4:hover{
+    opacity: 1;
+}
